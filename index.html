@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Responsive marketing webpage with hero and additional content section." />
+    <title>InfoTech Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="logo" href="#" aria-label="InfoTech Services home">InfoTech<span>Services</span></a>
+        <nav aria-label="Primary navigation">
+          <ul class="nav-list">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#additional">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">Modern IT Solutions</p>
+            <h1 id="hero-title">Build better digital products with confidence</h1>
+            <p class="hero-copy">
+              We help teams design, launch, and scale reliable web experiences with speed and clarity.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#additional">Get Started</a>
+              <a class="btn btn-secondary" href="#">View Work</a>
+            </div>
+          </div>
+          <div class="hero-card" role="img" aria-label="Dashboard mockup card with metrics">
+            <div class="metric-row">
+              <p>Performance</p>
+              <strong>98%</strong>
+            </div>
+            <div class="metric-row">
+              <p>Uptime</p>
+              <strong>99.99%</strong>
+            </div>
+            <div class="metric-row">
+              <p>Deployments</p>
+              <strong>1,240+</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="additional" class="additional" aria-labelledby="additional-title">
+        <div class="container additional-grid">
+          <div>
+            <p class="eyebrow">Why teams choose us</p>
+            <h2 id="additional-title">Practical engineering for real business outcomes</h2>
+          </div>
+          <div class="feature-list">
+            <article class="feature-card">
+              <h3>UI Engineering</h3>
+              <p>Pixel-precise frontend implementation with clean, maintainable code.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Performance First</h3>
+              <p>Optimized assets and layouts that stay fast across devices and networks.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Scalable Systems</h3>
+              <p>Component-driven architecture that grows with your product roadmap.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
