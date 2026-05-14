@@ -1,19 +1,14 @@
-# InfoTechServices Frontend
+# Compliance Landing Page
 
-Simple, deployment-ready static frontend built with semantic HTML and responsive CSS.
+## Folder Structure
 
-## Structure
+- `index.html`: Semantic structure for header, hero, and additional section.
+- `styles.css`: Design tokens, typography system, layout, and responsive breakpoints.
+- `script.js`: Mobile drawer navigation interactions.
 
-- `index.html` – semantic page structure with hero and additional section.
-- `styles.css` – global styles, color system, typography, layout, breakpoints, and hover states.
+## Deployment
 
-## Run locally
+This is a static project ready for Netlify/Vercel.
 
-Open `index.html` directly in a browser, or serve with any static server.
-
-## Deploy
-
-This project is Netlify/Vercel ready as a static site:
-
-- **Netlify**: import repo and deploy with default settings.
-- **Vercel**: import repo and choose "Other" framework preset.
+- Netlify: deploy from repo root.
+- Vercel: import project and use static output defaults.

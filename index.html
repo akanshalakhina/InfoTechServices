@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Compliance services landing page" />
+    <title>Compliance Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <meta name="description" content="Responsive marketing webpage with hero and additional content section." />
     <title>InfoTech Services</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,6 +20,68 @@
   </head>
   <body>
     <header class="site-header">
+      <div class="container nav-row">
+        <a class="brand" href="#" aria-label="Homepage">
+          <span class="brand-icon">⌕</span><span class="brand-text">Logo</span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Primary">
+          <a class="active" href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Our Services</a>
+          <a href="#">Pricing</a>
+          <a href="#">FAQ</a>
+          <a href="#">Contact</a>
+        </nav>
+
+        <button class="contact-btn desktop-contact" type="button">📞 Contact Us</button>
+
+        <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">☰</button>
+      </div>
+    </header>
+
+    <aside id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation" hidden>
+      <div class="mobile-panel">
+        <div class="mobile-head">
+          <a class="brand" href="#"><span class="brand-icon">⌕</span><span class="brand-text">Logo</span></a>
+          <button class="close-btn" type="button" aria-label="Close menu">✕</button>
+        </div>
+        <nav class="mobile-links">
+          <a class="active" href="#">🏠 Home</a>
+          <a href="#">ℹ️ About Us</a>
+          <a href="#">🛠️ Our Services</a>
+          <a href="#">🏷️ Pricing</a>
+          <a href="#">❓ FAQ</a>
+          <a href="#">📇 Contact</a>
+        </nav>
+        <button class="contact-btn">Contact Us</button>
+      </div>
+    </aside>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <article class="hero-content">
+            <h1>Simplifying <span>Compliance</span> For Research Analysts</h1>
+            <p>
+              Stay Focused On Your Insights—We'll Handle The Compliance. Our Expert Solutions Ensure Your Research Practices Meet Every Regulatory Requirement With Confidence And Ease
+            </p>
+            <ul>
+              <li>End-To-End Compliance Support</li>
+              <li>Regulatory Filings Made Simple</li>
+              <li>Tailored Solutions For Independent Analysts &amp; Firms</li>
+            </ul>
+            <div class="actions">
+              <a href="#" class="btn primary">Get Started</a>
+              <a href="#" class="btn ghost">Book A Consultation</a>
+            </div>
+          </article>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="blob"></div>
+            <div class="person"></div>
+            <div class="rating">4.8 <span>★★★★★<br />Clients Rating</span></div>
+            <div class="trusted">Trusted By <b>250+</b><span>Professionals</span></div>
+            <div class="briefcase"></div>
       <div class="container nav-wrap">
         <a class="logo" href="#" aria-label="InfoTech Services home">InfoTech<span>Services</span></a>
         <nav aria-label="Primary navigation">
@@ -59,6 +126,21 @@
         </div>
       </section>
 
+      <section class="additional">
+        <div class="container additional-grid">
+          <div class="left">
+            <h2>Why <span>Compliance Matters</span> For Research Analysts</h2>
+            <div class="illustration"></div>
+          </div>
+          <div class="right">
+            <p>
+              In Today’s Regulatory Environment, Even A Small Oversight Can Lead To Penalties, Reputational Risks, And Loss Of Client Trust. We Help Research Analysts And Firms Navigate Complex Compliance Requirements So They Can Focus On Delivering High-Quality Research Without Worry.
+            </p>
+            <div class="cards">
+              <article class="card"><h3>Regulatory Clarity</h3><p>We Decode Complex Compliance Rules Into Simple, Actionable Steps.</p></article>
+              <article class="card"><h3>Hassle-Free Filings Clarity</h3><p>From Registration To Ongoing Reporting—We Manage It End-To-End.</p></article>
+              <article class="card"><h3>Risk Protection</h3><p>Stay Ahead Of Audits, Inspections, And Compliance Gaps With Proactive Support.</p></article>
+            </div>
       <section id="additional" class="additional" aria-labelledby="additional-title">
         <div class="container additional-grid">
           <div>
@@ -82,5 +164,7 @@
         </div>
       </section>
     </main>
+
+    <script src="script.js"></script>
   </body>
 </html>
